@@ -1,0 +1,15 @@
+/***Universal Selctor***/
+*{
+   background-image: url("image.png");
+}
+
+.group1{
+    color:rgb(255, 0, 0);
+}
+p{
+    color:orange
+}
+div{
+    color:pink;
+}
+

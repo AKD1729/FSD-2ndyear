@@ -1,0 +1,57 @@
+a[target]{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px grey;
+    transition: background-color 0.3s ease;
+    &:hover {
+        background-color: darkblue;
+    }
+
+    
+}
+img{
+    
+    border-style: solid;
+        width: 200px;
+        height: 200px;
+        margin-right: 100px;
+        color: orange;
+        pointer-events: none;
+        cursor: default;
+        filter: grayscale(10%);
+        mix-blend-mode: multiply;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: scale(1.1);
+        }
+        img[alt]{   
+           
+                width: 50px;
+                height: 50px;
+                margin-right: 10px;
+                color: red;
+        }
+        img[title]{   
+           
+            border-style: solid;
+
+                width: 50px;
+                height: 50px;
+                margin-right: 10px;
+                color: green;
+                pointer-events: none;
+                cursor: default;
+                filter: grayscale(100%);
+        }
+
+}

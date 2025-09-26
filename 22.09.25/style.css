@@ -1,0 +1,36 @@
+
+  div{
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: flex;               /* places left and right divs side by side */
+    justify-content: space-between;
+    align-items: center;          /* vertically center */
+    padding: 20px;
+    height: 100vh;                /* full height for demo */
+    background: #f2f2f2;
+  }
+
+  .left {
+    flex: 1;                      /* takes available width */
+    padding: 40px;                /* padding around text */
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  .right {
+    flex: 0 0 250px;               /* fixed width for image container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right img {
+    width: 220px;                 /* adjust size as needed */
+    height: 220px;
+    object-fit: cover;            /* crop image if needed */
+    border-radius: 50%;           /* circular boundary */
+    border: 5px solid #555;       /* optional border */
+  }

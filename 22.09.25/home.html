@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Two Div Layout with Navbar</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+  }
+
+  /* ---------- Navigation Bar ---------- */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 30px;
+  }
+
+  .navbar .logo {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+
+  .navbar ul li a:hover {
+    color: #00bcd4; /* highlight on hover */
+  }
+
+  /* ---------- Two Div Section ---------- */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    min-height: calc(100vh - 60px); /* subtract navbar height */
+  }
+
+  .left {
+    flex: 1;
+    padding: 40px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  .right {
+    flex: 0 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #555;
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== Navigation Bar ===== -->
+<nav class="navbar">
+  <div class="logo">CSE11</div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ===== Two Div Section ===== -->
+<div class="container">
+  <div class="left">
+    <h1>Welcome to CSE11</h1>
+    <p>
+      This is the left side text area with ample padding.
+      You can add paragraphs, lists, or buttons here.
+    </p>
+  </div>
+  <div class="right">
+    <img src="/17.9.25/image.png" alt="Profile Picture">
+  </div>
+</div>
+
+</body>
+</html>
+
+    
+</body>
+</html>

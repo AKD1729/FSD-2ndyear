@@ -1,0 +1,43 @@
+#left{
+    height: 70vh;
+    width: 45%;
+    background-color: aqua;
+    padding: 20px 15px 20px 12px;
+    text-align: justify;
+    border-radius: 20px;
+    border: 2px black solid;
+
+}
+
+
+#right{
+    height: 70vh;
+    width: 45%;
+    background-color: wheat;
+    padding: 20px 15px 20px 12px;
+    text-align: justify;
+    border-radius: 20px;
+     border-radius: 20px;
+    border: 2px black solid;
+
+}
+
+
+div{
+    display:flex;
+    margin: 50px;
+    
+}
+
+#first{
+      height: 70vh;
+    width: 45%;
+    background-color: wheat;
+    padding: 20px 15px 20px 12px;
+    text-align: justify;
+   
+     border-radius: 50%;
+    border: 2px black solid;
+
+}
+
